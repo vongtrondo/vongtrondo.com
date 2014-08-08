@@ -1,0 +1,63 @@
+/* ==================================================
+* SoClean - Color Scheme - Hearty
+* Copyright 2013, Ujamshi Khandla
+* http://uckhandla.com
+================================================== */
+
+/* Basic Element Styles
+================================================== */
+body {
+    background: #fff;
+}
+a {
+    color: #CC1247;
+}
+/* Browser Specific
+================================================== */
+::-moz-selection {
+    background: #cc608b;
+}
+::selection {
+    background: #cc608b;
+}
+
+/* Objects Styles
+================================================== */
+/* error */
+.error {
+    color: #40c9b2;
+}
+.error span {font-size: 2em; color: #CC1247;}
+
+/* calltoaction section
+-------------------------- */
+#calltoaction {
+}
+/* search form */
+#submit-button {
+    color: #40c9b2;
+}
+
+/* Retina Ready Images
+================================================== */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    body {
+        background-color: #fff;
+        background-position: top center;
+        background-size: 13px 13px; /* Half the size of the @2x image */
+    }
+    #calltoaction {
+        background-position: top center;
+        background-size: 13px 13px; /* Half the size of the @2x image */
+    }
+}
+
+/* End of Document
+================================================== */
